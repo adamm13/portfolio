@@ -12,7 +12,7 @@ export default function Sidebar() {
         className="w-32 h-32 mx-auto rounded-full"
         />
         <h3 className="my-4 text-3xl font-medium tracking-wider font-Ubuntu">
-          <span className="text-green">Adam </span>
+          <span className="text-blue-400">Adam </span>
            Mohammed
         </h3>
         <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full">
@@ -24,7 +24,7 @@ export default function Sidebar() {
           download="name">
           <GiTie className="w-6 h-6"/>Download Resume
         </a>
-        <div className="flex justify-around my-5 text-blue-500 w-9/12 md:w-full mx-auto">
+        <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-500 md:w-full">
           <a href="">
             <AiFillYoutube className="w-8 h-8 cursor-pointer"/>
           </a>
@@ -45,11 +45,11 @@ export default function Sidebar() {
           <p className="my-2 ">13.adamm@gmail.com</p>
           <p className="my-2 ">416-573-0735</p>
         </div>
-        <button className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2 focus:outline-none"
+        <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-purple-400 to-blue-400 focus:outline-none"
         onClick={() => window.open('mailto:13.adamm@gmail.com')}>
         Email Me
         </button>
-        <button className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2 focus:outline-none">
+        <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-purple-400 to-blue-400 focus:outline-none">
         Dark Mode
         </button>
     </div>
