@@ -49,7 +49,7 @@ export default function Sidebar() {
         onClick={() => window.open('mailto:13.adamm@gmail.com')}>
         Email Me
         </button>
-        <button className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2">
+        <button className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2 focus:outline-none">
         Dark Mode
         </button>
     </div>
