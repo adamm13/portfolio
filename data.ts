@@ -2,7 +2,8 @@ import {RiComputerLine} from 'react-icons/ri'
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { iService } from './type'
+import { iService, iSkill } from './type'
+import { BsCircleFill } from 'react-icons/bs'
 
 export const services: iService[] = [
   {
@@ -39,5 +40,61 @@ export const services: iService[] = [
     title: "Whatever",
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+  },
+];
+
+export const languages: iSkill[] = [
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "90%",
+    Icon: BsCircleFill,
+  },
+];
+
+export const tools: iSkill[] = [
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "python",
+    level: "70%",
+    Icon: BsCircleFill,
   },
 ];

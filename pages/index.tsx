@@ -6,16 +6,21 @@ const index = () => {
   // console.log('CLIENT:', services) <-----client dom side rendering
 
   return (
-    <div className="flex flex-col px-6 pt-1">
+    <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        i am currently fsdfsdf sdf sd fsd fs df sd fs df sd f sd fsdfsdfkshdljshfksjdhf sdf sd fs dfksjdhfksdjfhs
-        sdkfslkdfjhsdjkfhsdkf dfsjdfhsldkjfhdlskfjhsd fsdf sldfhsdkjfhsdlfsjhdfk sdfskdfhsdf s dfsdfskldjfh'
+        A finance professional turned developer with a vast knowledge of financial and banking sectors.
+        Passion for changing technologies, creativity, and continual learning led me to software development.
+        Leadership and collaborative experiences in multiple lines of work.
+        Collaborative team player consistently sharing my knowledge and skills.
         </h5>
-        <div className="p-4 mt-5 bg-gray-400">
-          <h6> What I offer</h6>
+        <div className="flex-grow p-4 mt-5 bg-gray-400" 
+        style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
+          <h6 className="my-3 text-xl font-bold tracking-wide"> What I offer</h6>
           <div className="grid gap-6 lg:grid-cols-2">
             {services.map(service => (
-              <ServiceCard service={service}/>
+             <div className="bg-gray-200 rounded-lg lg:col-span-1">
+                <ServiceCard service={service}/>
+                </div>
               ))}
           </div>
         </div>
