@@ -34,8 +34,8 @@ export default function Sidebar() {
           </p>
           <a
           className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500" 
-          href="" 
-          download="name">
+          href="https://www.canva.com/design/DAEaJQFqN9Q/3SN6eAmM0wpp-S4-WxUCyw/view?utm_content=DAEaJQFqN9Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
+          download="Adam Resume">
           <GiTie className="w-6 h-6"/>Download Resume
         </a>
         <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-500 md:w-full">
