@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { iProject } from "../type";
 
+import Image from "next/image";
 
 const ProjectCard: FunctionComponent<{
 
@@ -63,8 +64,7 @@ const ProjectCard: FunctionComponent<{
     </div>
     )}
   </div>
-
   )
-}
+};
 
 export default ProjectCard
