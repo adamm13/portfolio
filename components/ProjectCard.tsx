@@ -11,7 +11,8 @@ import Image from "next/image";
 const ProjectCard: FunctionComponent<{
 
   project:iProject;
-
+  showDetail:null|number,
+  setShowDetail:(id:null|number)=>void;
 }> = ({
   project:{
     name, 
@@ -21,10 +22,12 @@ const ProjectCard: FunctionComponent<{
     github_url, 
     description, 
     key_techs,
-  }
+    id,
+  },
+  showDetail,
+  setShowDetail
 }) => {
 
-  const [showDetail, setShowDetail] = useState(false)
 
   return (
     <div>
@@ -32,7 +35,7 @@ const ProjectCard: FunctionComponent<{
       src={image_path}
       alt={name}
       className="cursor-pointer"
-      onClick={() => setShowDetail(true)}
+      onClick={() => setShowDetail(id)}
       width='300'
       height='150'
       layout="responsive"
@@ -41,7 +44,7 @@ const ProjectCard: FunctionComponent<{
       {/* <img src={image_path} alt={name} className="cursor-pointer" onClick={() =>setShowDetail(true)} /> */}
     <p className="my-2 text-center">{name}</p>
 
-    {showDetail && (
+    {showDetail === id && (
 
     <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 
     md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100"
@@ -82,7 +85,7 @@ const ProjectCard: FunctionComponent<{
       </motion.div>
     </motion.div>
 
-    <button onClick={()=>setShowDetail(false)}
+    <button onClick={()=>setShowDetail(null)}
     
     className="absolute top-3 right-3 rounded-full p-1 focus:outline-none bg-gray-200 dark:bg-dark-200">
       <MdClose size={30}/>

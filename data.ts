@@ -101,6 +101,7 @@ export const tools: iSkill[] = [
 
 export const projects: iProject[] = [
   {
+    id: 1,
     name: "Scheduler",
     description:
       "This is a single-page app built on React.js that allows users to book, edit or cancel interviews for each day of the week",
@@ -111,6 +112,7 @@ export const projects: iProject[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 2,
     name: "Lockdown",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
@@ -122,6 +124,7 @@ export const projects: iProject[] = [
   },
 
   {
+    id: 3,
     name: "Jungle",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
@@ -141,6 +144,7 @@ export const projects: iProject[] = [
   },
 
   {
+    id: 4,
     name: "Alfresco",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
@@ -152,6 +156,7 @@ export const projects: iProject[] = [
   },
 
   {
+    id: 5,
     name: "Tweeter",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
@@ -162,6 +167,7 @@ export const projects: iProject[] = [
   },
 
   {
+    id: 6,
     name: "TinyApp",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
@@ -172,6 +178,7 @@ export const projects: iProject[] = [
     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
   },
   {
+    id: 7,
     name: "YouTube using YouTube ",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
@@ -189,6 +196,7 @@ export const projects: iProject[] = [
     ],
   },
   {
+    id: 8,
     name: "test7",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
