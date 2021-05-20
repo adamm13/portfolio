@@ -4,6 +4,8 @@ import {GoLocation} from 'react-icons/go'
 import {GiTie} from 'react-icons/gi'
 import { useTheme} from 'next-themes'
 
+import Image from 'next/image'
+
 export default function Sidebar() {
 
   const {theme, setTheme} = useTheme()
@@ -14,10 +16,14 @@ export default function Sidebar() {
 
   return (
     <div>
-      <img 
+      <Image
         src="https://avatars.githubusercontent.com/u/43428818?v=4" 
         alt="user avatar"
         className="w-32 h-32 mx-auto rounded-full"
+        height='128px'
+        width="128px"
+        layout="intrinsic"
+        quality="100"
         />
         <h3 className="my-4 text-3xl font-medium tracking-wider font-Ubuntu">
           <span className="text-blue-400">Adam </span>
