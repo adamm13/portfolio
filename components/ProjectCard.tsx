@@ -3,6 +3,9 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { iProject } from "../type";
 
+import { fadeInUp, stagger } from "../animations";
+import { motion } from "framer-motion";
+
 import Image from "next/image";
 
 const ProjectCard: FunctionComponent<{

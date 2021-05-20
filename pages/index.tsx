@@ -1,6 +1,8 @@
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
 import ServiceCard from '../components/ServiceCard'
 import { services }  from '../data'
+import { fadeInUp, stagger } from "../animations";
+import { motion } from "framer-motion";
 
 const index = () => {
   // console.log('CLIENT:', services) <-----client dom side rendering
@@ -16,13 +18,22 @@ const index = () => {
         <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" 
         style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
           <h6 className="my-3 text-xl font-bold tracking-wide"> What I offer</h6>
-          <div className="grid gap-6 lg:grid-cols-2">
+          <motion.div
+            className="grid gap-6 my-3 md:grid-cols-2"
+            variants={stagger}
+            initial="initial"
+            animate="animate"
+            >
             {services.map(service => (
-             <div className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1 ">
+             <motion.div
+              className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1 "
+              key={service.title}
+              variants={fadeInUp}
+              >
                 <ServiceCard service={service}/>
-                </div>
+                </motion.div>
               ))}
-          </div>
+          </motion.div>
         </div>
     </div>
   )

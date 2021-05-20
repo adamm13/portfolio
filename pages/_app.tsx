@@ -1,8 +1,9 @@
-import '../styles/globals.css'
-import Sidebar from "../components/Sidebar"
-import Navbar from "../components/Navbar"
+import { AnimatePresence } from "framer-motion";
+import { ThemeProvider } from "next-themes";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import "../styles/globals.css";
 
-import {ThemeProvider} from 'next-themes'
 
 function MyApp({ Component, pageProps }) {
   return ( 
