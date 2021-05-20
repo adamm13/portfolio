@@ -1,14 +1,20 @@
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
 import ServiceCard from '../components/ServiceCard'
 import { services }  from '../data'
-import { fadeInUp, stagger } from "../animations";
+import { fadeInUp, stagger, routeFade } from "../animations";
 import { motion } from "framer-motion";
 
 const index = () => {
   // console.log('CLIENT:', services) <-----client dom side rendering
 
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div 
+    className="flex flex-col flex-grow px-6 pt-1" 
+    variants={routeFade} 
+    initial="initial" 
+    animate="animate"
+    exit= "exit"
+    >
       <h5 className="my-3 font-medium">
         A finance professional turned developer with a vast knowledge of financial and banking sectors.
         Passion for changing technologies, creativity, and continual learning led me to software development.
@@ -35,7 +41,7 @@ const index = () => {
               ))}
           </motion.div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

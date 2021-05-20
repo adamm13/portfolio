@@ -45,57 +45,57 @@ export const services: iService[] = [
 
 export const languages: iSkill[] = [
   {
-    name: "python",
-    level: "70%",
     Icon: BsCircleFill,
+    name: "python",
+    level: "40",
   },
   {
-    name: "python",
-    level: "70%",
     Icon: BsCircleFill,
+    name: "python",
+    level: "80",
   },
-  {
-    name: "python",
-    level: "70%",
+    {
     Icon: BsCircleFill,
+    name: "python",
+    level: "40",
   },
-  {
-    name: "python",
-    level: "70%",
+    {
     Icon: BsCircleFill,
+    name: "python",
+    level: "90",
   },
-  {
-    name: "python",
-    level: "70%",
+    {
     Icon: BsCircleFill,
+    name: "python",
+    level: "90",
   },
-  {
-    name: "python",
-    level: "90%",
+    {
     Icon: BsCircleFill,
+    name: "python",
+    level: "60",
   },
 ];
 
 export const tools: iSkill[] = [
   {
-    name: "python",
-    level: "70%",
     Icon: BsCircleFill,
+    name: "python",
+    level: "70",
   },
   {
-    name: "python",
-    level: "70%",
     Icon: BsCircleFill,
+    name: "python",
+    level: "70",
   },
   {
-    name: "python",
-    level: "70%",
     Icon: BsCircleFill,
+    name: "python",
+    level: "75",
   },
   {
-    name: "python",
-    level: "70%",
     Icon: BsCircleFill,
+    name: "python",
+    level: "90",
   },
 ];
 

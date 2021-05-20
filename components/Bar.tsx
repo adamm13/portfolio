@@ -1,8 +1,9 @@
 import { FunctionComponent } from "react"
-import { iSkill } from "../type"
+import { languages, iSkill } from "../type"
 import { motion } from "framer-motion"
 
-const Bar: FunctionComponent<{ data: iSkill }> = ({
+
+const Bar: FunctionComponent<{ value: iSkill }> = ({
   data: { Icon, level, name },
 }) => {
   const bar_width = `${level}%`;
