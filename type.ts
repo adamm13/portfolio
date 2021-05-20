@@ -1,15 +1,16 @@
 import {IconType} from 'react-icons'
+import { FunctionComponent } from "react";
 
 export interface iService {
-  title: string,
-  about: string,
-  Icon: IconType
+  title: string;
+  about: string;
+  Icon: IconType;
 }
 
 export interface iSkill {
-  name: string,
-  level: string,
-  Icon: IconType
+  name: string;
+  level: string;
+  Icon: IconType;
 }
 
 export interface iProject{
