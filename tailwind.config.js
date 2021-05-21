@@ -14,6 +14,9 @@ module.exports = {
       green: {
         DEFAULT: '#00f260',
         },
+      purple: {
+        DEFAULT: '#2196F3',
+      },
         dark:{
           DEFAULT: '#010101',
           100: '#0a0b0e',
@@ -21,6 +24,7 @@ module.exports = {
           300: '#16191d',
           500: '#0f1115',
           700: '#202125',
+          800: '#505156',
         }
       }
     },

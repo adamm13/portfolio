@@ -46,56 +46,61 @@ export const services: iService[] = [
 export const languages: iSkill[] = [
   {
     Icon: BsCircleFill,
-    name: "python",
-    level: "40",
+    name: "HTML5 (ERB, EJS)",
+    level: "88",
+  },
+    {
+    Icon: BsCircleFill,
+    name: "CSS3 (Bootstrap, Tailwind)",
+    level: "78",
   },
   {
     Icon: BsCircleFill,
-    name: "python",
-    level: "80",
+    name: "JavaScript (React, Next, Node)",
+    level: "85",
   },
     {
     Icon: BsCircleFill,
-    name: "python",
-    level: "40",
+    name: "SQL/ PostgreSQL",
+    level: "75",
   },
     {
     Icon: BsCircleFill,
-    name: "python",
-    level: "90",
+    name: "TypeScript",
+    level: "78",
   },
     {
     Icon: BsCircleFill,
-    name: "python",
-    level: "90",
-  },
-    {
-    Icon: BsCircleFill,
-    name: "python",
-    level: "60",
+    name: "Ruby on Rails",
+    level: "69",
   },
 ];
 
 export const tools: iSkill[] = [
   {
     Icon: BsCircleFill,
-    name: "python",
+    name: "Github",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "python",
+    name: "Heroku/ Ngrok",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "python",
-    level: "75",
+    name: "Office Suite",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "python",
-    level: "90",
+    name: "Adobe Suite",
+    level: "85",
+  },
+    {
+    Icon: BsCircleFill,
+    name: "Mocha/ Chai",
+    level: "80",
   },
 ];
 
@@ -202,7 +207,7 @@ export const projects: iProject[] = [
   {
     id: 9,
     name: "Bulk Image Downloader",
-    image_path: "/images/logo.png",
+    image_path: "/images/bulk.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/bulk-image-downloader",
     category: ["jQuery"],
@@ -213,7 +218,7 @@ export const projects: iProject[] = [
   {
     id: 10,
     name: "Crypto Tracker",
-    image_path: "/images/logo.png",
+    image_path: "/images/crypto.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/crypto-tracker",
     category: ["React"],
@@ -222,14 +227,25 @@ export const projects: iProject[] = [
     key_techs: ["React", "Axios", "Testing-Library", "CoinGecko-API"],
   },
   {
-    id: 10,
+    id: 11,
     name: "Recipe Finder",
-    image_path: "/images/food.png",
+    image_path: "/images/recipes.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/recipe-finder",
     category: ["React", "TypeScript"],
     description:
       "This App was built to practice using TypeScript and React. It uses axios in a proxy server to call the Recipe Puppy API to return the queried results. ",
     key_techs: ["React", "TypeScript", "Chalk", "Recipe-Puppy-API"],
+  },
+    {
+    id: 12,
+    name: "Portfolio",
+    image_path: "/images/portfolio.png",
+    deployed_url: "https://www.google.ca/",
+    github_url: "https://github.com/adamm13/portfolio",
+    category: ["React", "TypeScript"],
+    description:
+      "This Portfolio was built to build on my TypeScript skills while learning Next.js and Tailwind CSS. ",
+    key_techs: ["React", "TypeScript", "Next.Js", "Tailwind CSS", "Framer-Motion", ""],
   },
 ];

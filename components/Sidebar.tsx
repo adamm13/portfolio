@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
-import {GiTie} from 'react-icons/gi'
+import {RiDownloadFill} from 'react-icons/Ri'
 import { useTheme} from 'next-themes'
 
 import Image from 'next/image'
@@ -26,17 +26,17 @@ export default function Sidebar() {
         quality="100"
         />
         <h3 className="my-4 text-3xl font-medium tracking-wider font-Ubuntu">
-          <span className="text-blue-400">Adam </span>
+          <span className="text-purple">Adam </span>
            Mohammed
         </h3>
-        <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-          Web Developer
+        <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-700 dark:bg-black-500">
+          Full Stack Developer
           </p>
           <a
-          className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500" 
+          className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-700 dark:bg-black-500" 
           href="https://www.canva.com/design/DAEaJQFqN9Q/3SN6eAmM0wpp-S4-WxUCyw/view?utm_content=DAEaJQFqN9Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
           download="Adam Resume">
-          <GiTie className="w-6 h-6"/>Download Resume
+          <RiDownloadFill className="w-6 h-6 mr-2"/>Resume
         </a>
         <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-500 md:w-full">
           <a href="">
@@ -51,10 +51,10 @@ export default function Sidebar() {
         </div>
 
         {/* address */}
-        <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500" 
+        <div className="py-4 my-5 bg-gray-200 dark:bg-dark-700 dark:bg-black-500" 
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}>
           <div className="flex items-center justify-center space-x-2">
-            <GoLocation className="mr-2"/>
+            <GoLocation className="mr-1"/>
             <span>Toronto, Canada</span>
           </div>
           <p className="my-2 ">13.adamm@gmail.com</p>

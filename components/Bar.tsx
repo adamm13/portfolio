@@ -24,9 +24,9 @@ const Bar: FunctionComponent<{ value: iSkill }> = ({
   };
 
   return (
-    <div className="my-2 text-white bg-gray-300 rounded-full dark:bg-black-300">
+    <div className="my-2 text-white bg-gray-200 rounded-full dark:bg-gray-700">
       <motion.div
-        className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-green to-blue-500"
+        className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-purple-400 to-blue-500"
         style={{
           width: bar_width,
         }}

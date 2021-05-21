@@ -17,17 +17,19 @@ const resume = () => {
       <motion.div variants={fadeInUp} initial='initial' animate='animate'>
         <h5 className="my-3 text-2xl font-bold">Education</h5>
         <div>
-          <h5 className="my-2 text-xl font-bold">Diploma in Web Development</h5>
-          <p className="font-semibold">Lighthouse Labs (2021)</p>
-          <p className="my-3">skdl sdfsd fsd fsd fs dlfksjdl sdflsdkjfs fsdlkfjsdklfjsd</p>
+          <h5 className="my-2 text-xl font-bold text-purple">Diploma in Web Development</h5>
+          <p className="font-semibold text-purple">Lighthouse Labs (2021)</p>
+          <p className="my-3">Studied various aspects of full stack web development. Used popular frameworks 
+          to build both single-page applications and progressive web applications. </p>
         </div>
       </motion.div>
        <motion.div variants={fadeInUp} initial='initial' animate='animate'>
         <h5 className="my-3 text-2xl font-bold">Experience</h5>
         <div>
-          <h5 className="my-2 text-xl font-bold">Jr Full Stack Web Developer</h5>
-          <p className="font-semibold">Freelance</p>
-          <p className="my-3">skdl sdfsd fsd fsd fs dlfksjdl sdflsdkjfs fsdlkfjsdklfjsd</p>
+          <h5 className="my-2 text-xl font-bold text-purple">Jr Full Stack Web Developer</h5>
+          <p className="font-semibold text-purple">Freelance</p>
+          <p className="my-3">Built applications focusing on popular front-end frameworks. Utilized 
+          various other programs to build dynamic apps.</p>
         </div>
       </motion.div>
     </div>
