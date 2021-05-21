@@ -108,7 +108,7 @@ export const projects: iProject[] = [
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/scheduler",
-    category: ["react"],
+    category: ["React"],
     key_techs: ["React", "Axios", "Storybook", "Webpack", "JEST"],
   },
   {
@@ -117,7 +117,7 @@ export const projects: iProject[] = [
     image_path: "/images/menupic.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/lockdown",
-    category: ["react", "Phaser"],
+    category: ["React", "Phaser"],
     description:
       "Lockdown is a 2D topdown game where zombies have taken over. You must collect enough samples to eradicate the virus to save the world.",
     key_techs: ["React", "Phaser", "Javascript", "NodeJs", "Tiled"],
@@ -141,7 +141,7 @@ export const projects: iProject[] = [
     image_path: "/images/fav.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/dpappo/alfresco",
-    category: ["node", "jQuery", "Express"],
+    category: ["Node.js", "jQuery", "Express"],
     description:
       "Find and share great outdoor dining spots with this nifty social map-app",
     key_techs: [
@@ -161,7 +161,7 @@ export const projects: iProject[] = [
     image_path: "/images/desktop.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/tweeter",
-    category: ["node", "jQuery", "Express"],
+    category: ["Node.js", "jQuery", "Express"],
     description: "Tweeter is a simple, single-page Twitter clone.",
     key_techs: ["jQuery", "AJAX", "Express", "MongoDB"],
   },
@@ -172,7 +172,7 @@ export const projects: iProject[] = [
     image_path: "/images/login_page.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/tinyapp",
-    category: ["node", "Express"],
+    category: ["Node.js", "Express"],
     description:
       "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
     key_techs: ["NodeJs", "EJS", "bcrypt"],
@@ -183,22 +183,53 @@ export const projects: iProject[] = [
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/weather-app",
-    category: ["react"],
+    category: ["React"],
     description:
       "A simple weather app built with React that uses the Open Weather API to check the forecast globally and returns the date, temperature, and type of weather.",
-    key_techs: [
-      "React","Javascript","HTML", "CSS"
-    ],
+    key_techs: ["React", "Javascript", "HTML", "CSS", "Open-Weather-API"],
   },
   {
     id: 8,
-    name: "test7",
+    name: "PipBoy Clone",
+    image_path: "/images/pipboymarkIV.png",
+    deployed_url: "https://www.google.ca/",
+    github_url: "https://github.com/adamm13/pipboy-clone",
+    category: ["jQuery"],
+    description:
+      "A simple Pipboy Mark IV clone from Fallout 4. This project was designed to practice HTML and CSS styling properties along with any advanced CSS topics. ",
+    key_techs: ["HTML", "CSS", "Monofonto", "Tether", "Bootstrap", "jQuery"],
+  },
+  {
+    id: 9,
+    name: "Bulk Image Downloader",
     image_path: "/images/logo.png",
     deployed_url: "https://www.google.ca/",
-    github_url: "https://github.com/adamm13/lockdown",
-    category: ["react"],
+    github_url: "https://github.com/adamm13/bulk-image-downloader",
+    category: ["jQuery"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+      "This Chrome Extension was built using jQuery and Javascript to allow the user to download all the images on a google image search.  ",
+    key_techs: ["HTML", "CSS", "jQuery"],
+  },
+  {
+    id: 10,
+    name: "Crypto Tracker",
+    image_path: "/images/logo.png",
+    deployed_url: "https://www.google.ca/",
+    github_url: "https://github.com/adamm13/crypto-tracker",
+    category: ["React"],
+    description:
+      "This React App was built using the CoinGecko API and displays the top 100 cryptocurrencies live by market cap. ",
+    key_techs: ["React", "Axios", "Testing-Library", "CoinGecko-API"],
+  },
+  {
+    id: 10,
+    name: "Recipe Finder",
+    image_path: "/images/food.png",
+    deployed_url: "https://www.google.ca/",
+    github_url: "https://github.com/adamm13/recipe-finder",
+    category: ["React", "TypeScript"],
+    description:
+      "This App was built to practice using TypeScript and React. It uses axios in a proxy server to call the Recipe Puppy API to return the queried results. ",
+    key_techs: ["React", "TypeScript", "Chalk", "Recipe-Puppy-API"],
   },
 ];

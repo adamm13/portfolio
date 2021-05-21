@@ -24,10 +24,12 @@ const ProjectsNavbar: FunctionComponent<{handlerFilterCategory:Function, active:
   return (
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
       <NavItem value = "all" {...props}/>
-      <NavItem value = "react" {...props}/>
-      <NavItem value = "mongo" {...props}/>
+      <NavItem value = "React" {...props}/>
+      <NavItem value = "jQuery" {...props}/>
       <NavItem value = "Phaser" {...props}/>
-      <NavItem value = "node" {...props}/>
+      <NavItem value = "Node.js" {...props}/>
+      <NavItem value = "Ruby" {...props}/>
+      <NavItem value = "TypeScript" {...props}/>
 
     </div>
   )
