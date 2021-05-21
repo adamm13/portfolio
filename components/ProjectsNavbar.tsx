@@ -7,7 +7,7 @@ export const NavItem:FunctionComponent<{
   active:string
   }> = ({value, handlerFilterCategory, active }) => {
 
-    let className = "cursor-pointer hover:text-green capitalize"
+    let className = "capitalize cursor-pointer hover:text-green"
 
     if(active === value) {
       className += " text-green"
@@ -22,11 +22,11 @@ export const NavItem:FunctionComponent<{
 
 const ProjectsNavbar: FunctionComponent<{handlerFilterCategory:Function, active:string}> = (props) => {
   return (
-    <div className="flex space-x-3 px-3 py-2 list-none overflow-x-auto">
+    <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
       <NavItem value = "all" {...props}/>
       <NavItem value = "react" {...props}/>
       <NavItem value = "mongo" {...props}/>
-      <NavItem value = "django" {...props}/>
+      <NavItem value = "Phaser" {...props}/>
       <NavItem value = "node" {...props}/>
 
     </div>
