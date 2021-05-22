@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }) {
       <div className="col-span-12 p-4 text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
         <Sidebar/>
       </div>
-      <div className="flex flex-col col-span-12 overflow-hidden bg-white lg:col-span-9 rounded-2xl dark:bg-dark-500 ">
+      <div className="flex flex-col col-span-12 overflow-hidden bg-white lg:col-span-9 rounded-2xl dark:bg-dark-500 dark:text-white shadow-custom-light dark:shadow-custom-dark">
         <Navbar/>
         <AnimatePresence exitBeforeEnter>
         <Component {...pageProps} key={router.route} />

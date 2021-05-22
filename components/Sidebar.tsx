@@ -25,7 +25,7 @@ export default function Sidebar() {
         layout="intrinsic"
         quality="100"
         />
-        <h3 className="my-4 text-3xl font-medium tracking-wider font-Ubuntu">
+        <h3 className="my-6 text-3xl font-medium tracking-wider font-Ubuntu">
           <span className="text-purple">Adam </span>
            Mohammed
         </h3>
@@ -65,7 +65,7 @@ export default function Sidebar() {
         Email Me
         </button>
         <button onClick={changeTheme}
-         className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-purple-400 to-blue-400 focus:outline-none">
+         className="w-8/12 px-2 py-2 my-2 text-white rounded-full bg-gradient-to-r from-purple-400 to-blue-400 focus:outline-none">
         Dark Mode
         </button>
     </div>

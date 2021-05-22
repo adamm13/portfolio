@@ -10,19 +10,19 @@ export const services: iService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+"I can build beautiful and scalable SPA and PWA using <b> HTML</b>, <b>CSS</b>   and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
-    title: "Backend  Development",
+    title: "Backend Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Express, </b> <b>Node.js </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
-    title: "API Development",
+    title: "API Integration",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can integrate API endpoints using <b>Axios</b>  & <b>Node.js</b> ",
   },
   {
     Icon: MdDeveloperMode,
@@ -33,13 +33,13 @@ export const services: iService[] = [
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Builds robust user interfaces using <b>Figma</b>  and  <b>Framer</b> ",
   },
   {
     Icon: RiComputerLine,
-    title: "Whatever",
+    title: "Software Expert",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Proficient in both Office and Adobe suite of products.",
   },
 ];
 
@@ -80,27 +80,27 @@ export const tools: iSkill[] = [
   {
     Icon: BsCircleFill,
     name: "Github",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Heroku/ Ngrok",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Office Suite",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "Adobe Suite",
+    name: "Heroku/ Ngrok",
+    level: "75",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Office/ Adobe Suite",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Cypress/ Capybara",
     level: "85",
   },
     {
     Icon: BsCircleFill,
     name: "Mocha/ Chai",
-    level: "80",
+    level: "85",
   },
 ];
 
