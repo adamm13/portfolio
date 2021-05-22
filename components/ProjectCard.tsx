@@ -46,8 +46,7 @@ const ProjectCard: FunctionComponent<{
 
     {showDetail === id && (
 
-    <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:p-10 text-black bg-gray-100 
-    md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100 rounded-lg"
+    <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100"
     >
     <motion.div variants={stagger} initial="initial" animate="animate">
        {/* <img src={image_path} alt={name} /> */}
@@ -64,9 +63,6 @@ const ProjectCard: FunctionComponent<{
          <a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 dark:bg-dark-800">
            <AiFillGithub /> <span>Github</span>
          </a>
-         <a href={deployed_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 dark:bg-dark-800">
-           <AiFillProject /> <span>Project</span>
-         </a>
        </motion.div>
       </motion.div>
 
@@ -77,7 +73,7 @@ const ProjectCard: FunctionComponent<{
         {key_techs.map((tech) => (
           <span
           key={tech}
-          className="px-2 py-1 my-1 bg-gray-300 dark:bg-dark-800 rounded-sm"
+          className="px-2 py-1 my-1 bg-gray-300 rounded-sm dark:bg-dark-800"
           >
           {tech}
           </span>
@@ -87,7 +83,7 @@ const ProjectCard: FunctionComponent<{
 
     <button onClick={()=>setShowDetail(null)}
     
-    className="absolute top-3 right-3 rounded-full p-1 focus:outline-none bg-gray-200 dark:bg-dark-200">
+    className="absolute p-1 bg-gray-300 rounded-full top-3 right-3 focus:outline-none dark:bg-gray-700">
       <MdClose size={30}/>
     </button>
     </div>

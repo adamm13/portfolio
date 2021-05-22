@@ -1,4 +1,4 @@
-import { Category } from "../types"
+import { Category } from "../type"
 import { FunctionComponent} from "react"
 
 export const NavItem:FunctionComponent<{
@@ -22,7 +22,7 @@ export const NavItem:FunctionComponent<{
 
 const ProjectsNavbar: FunctionComponent<{handlerFilterCategory:Function, active:string}> = (props) => {
   return (
-    <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none font-bold">
+    <div className="flex px-3 py-2 space-x-3 overflow-x-auto font-bold list-none">
       <NavItem value = "all" {...props}/>
       <NavItem value = "React" {...props}/>
       <NavItem value = "jQuery" {...props}/>

@@ -4,7 +4,7 @@ import { services }  from '../data'
 import { fadeInUp, stagger, routeFade } from "../animations";
 import { motion } from "framer-motion";
 
-const index = () => {
+const About = () => {
   // console.log('CLIENT:', services) <-----client dom side rendering
 
   return (
@@ -32,7 +32,7 @@ const index = () => {
             >
             {services.map(service => (
              <motion.div
-              className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1 "
+              className="py-2 bg-gray-200 rounded-lg dark:bg-gray-900 lg:col-span-1 "
               key={service.title}
               variants={fadeInUp}
               >
@@ -45,22 +45,22 @@ const index = () => {
   )
 }
 
-export default index;
+export default About;
 
-// export const getServerSideProps = async (
-//   context:GetServerSidePropsContext
-//   ) => {
-//   // calculation 
+export const getServerSideProps = async (
+  context:GetServerSidePropsContext
+  ) => {
+  // calculation 
 
-//   const res = await fetch('http://localhost:3000/api/services')
-//   const data = await res.json()
-
-//   return {
-//     props:{
-//       services: data.services,
-//     }
-//   }
-// }
+  const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
+  const data = await res.json()
+    console.log(services)
+  return {
+    props:{
+      services: data.services,
+    }
+  }
+}
 
 // export const getStaticProps = async (
 //   context:GetStaticPropsContext

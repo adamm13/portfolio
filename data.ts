@@ -33,13 +33,13 @@ export const services: iService[] = [
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "Builds robust user interfaces using <b>Figma</b>  and  <b>Framer</b> ",
+      "Builds robust user interfaces using <b>Figma</b> ",
   },
   {
     Icon: RiComputerLine,
     title: "Software Expert",
     about:
-      "Proficient in both Office and Adobe suite of products.",
+      "Proficient in both <b>Office</b> and <b>Adobe</b> suite of products.",
   },
 ];
 
@@ -185,7 +185,7 @@ export const projects: iProject[] = [
   {
     id: 7,
     name: "Weather App",
-    image_path: "/images/logo.png",
+    image_path: "/images/cold-bg.jpeg",
     deployed_url: "https://www.google.ca/",
     github_url: "https://github.com/adamm13/weather-app",
     category: ["React"],
