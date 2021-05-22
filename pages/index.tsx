@@ -4,7 +4,7 @@ import { services }  from '../data'
 import { fadeInUp, stagger, routeFade } from "../animations";
 import { motion } from "framer-motion";
 
-const About = () => {
+const index = () => {
   // console.log('CLIENT:', services) <-----client dom side rendering
 
   return (
@@ -45,7 +45,7 @@ const About = () => {
   )
 }
 
-export default About;
+export default index;
 
 export const getServerSideProps = async (
   context:GetServerSidePropsContext
