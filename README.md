@@ -1,15 +1,15 @@
 # Portfolio
 
-This Portfolio was built to build on my TypeScript skills while learning [Next.js](https://nextjs.org/) and [Tailwind css](https://tailwindcss.com/). UX/ UI was built to utilize both desktop and mobile views while allowing the user to easily traverse the information. Animations were created using the [Framer-Motion](https://www.framer.com) react library. 
+This portfolio was built using TypeScript, [Next.js](https://nextjs.org/), and [Tailwind css](https://tailwindcss.com/). UX/ UI was built to utilize both desktop and mobile views while allowing the user to easily traverse the information. Animations were created using the [Framer-Motion](https://www.framer.com) react library. 
 
-** Check it out [Here](https://portfolio-adamm13.vercel.app/) **
+Check it out [Here](https://portfolio-adamm13.vercel.app/)
 
 ---
 
 ## Screenshots
 
 <p align="center">
-<img src=""/>
+<img src="https://github.com/adamm13/portfolio/blob/main/public/images/portoflio-video.gif"/>
 </p>
 
 ---
