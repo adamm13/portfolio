@@ -16,9 +16,9 @@ Check it out [Here](https://portfolio-adamm13.vercel.app/)
 
 ## Features
 
-- Full skill profile/ visual displays of general proficiencies. 
+- Full skill profile/ visual displays of general proficiencies
 - Dark mode updates all pages and tabs
-- Links to all personal pages (resume, linkedin) and project repositories.
+- Links to all personal pages (resume, linkedin) and project repositories
 - Next router used to power this SPA
 
 ---
@@ -43,11 +43,11 @@ Check it out [Here](https://portfolio-adamm13.vercel.app/)
 
 ## Dependencies
 
-- framer-motion": "^3.10.3",
-- next": "10.2.0",
-- next-themes": "^0.0.14",
-- react": "17.0.2",
-- react-dom": "17.0.2",
+- framer-motion": "^3.10.3"
+- next": "10.2.0"
+- next-themes": "^0.0.14"
+- react": "17.0.2"
+- react-dom": "17.0.2"
 - react-icons": "^4.2.0"
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
